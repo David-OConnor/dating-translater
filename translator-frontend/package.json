@@ -1,0 +1,35 @@
+{
+  "name": "translator",
+  "version": "0.0.1",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.61",
+    "@types/node": "^7.0.12",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "@types/redux": "^3.6.0",
+    "awesome-typescript-loader": "^3.1.2",
+    "django-react-csrftoken": "^1.0.1",
+    "globalize": "^1.2.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.5.4",
+    "react-confirm-alert": "^1.0.5",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.4",
+    "react-widgets": "^3.4.8",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.3.1",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David O'Connor",
+  "license": ""
+}

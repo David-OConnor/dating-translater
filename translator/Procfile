@@ -1,0 +1,1 @@
+web: gunicorn schedule.wsgi --timeout 90 --log-file -

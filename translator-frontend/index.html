@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.png" />
+        <title>Online Dating Translator</title>
+    </head>
+
+    <body>
+        <div id="react">
+            <i>Loading...</i>
+        </div>
+
+        <!-- {# The Typescript guide to bundling TS and react has React and React-DOM #}
+        {# blocked as external dependencies. Due to caching/performance reasons? #}
+        {# We'll go with it, and import there for the IDE, and script here for deployment. #} -->
+        <script src='node_modules/react/dist/react.js' %}></script>
+        <script src='node_modules/react-dom/dist/react-dom.js'></script>
+
+        <script src='dist/main.js'></script>
+
+    </body>
+
+</html>
