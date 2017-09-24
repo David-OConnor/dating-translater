@@ -9,4 +9,5 @@ Thumbs.db
 workspace.xml
 
 # Project-specific
+node_modules/
 *.sqlite3

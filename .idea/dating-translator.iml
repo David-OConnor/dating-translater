@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/translator/translator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/translator-frontend/src" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.6.1 virtualenv at C:\Users\david\code\stocks\venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

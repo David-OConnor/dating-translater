@@ -93,7 +93,6 @@ var Main = (function (_super) {
     __extends(Main, _super);
     function Main(props) {
         var _this = _super.call(this, props) || this;
-        var headers = new Headers();
         _this.state = {
             username: 'admin',
             password: 'test',
@@ -110,11 +109,9 @@ var Main = (function (_super) {
         return _this;
     }
     Main.prototype.render = function () {
-        var items = this.state.items;
-        console.log(this.state.items, "I");
         return (React.createElement("div", null,
             React.createElement("h1", null, "What does he/she really mean?"),
-            items.map(function (i) { return React.createElement(ItemDisplay, { key: i.id, item: i }); })));
+            this.state.items.map(function (i) { return React.createElement(ItemDisplay, { key: i.id, item: i }); })));
     };
     return Main;
 }(React.Component));
